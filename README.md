@@ -1,3 +1,3 @@
-## Scripts
+## Policies
   
-  + [Create a Virtual Machine from Azure PowerShell](https://github.com/xdanielribeiro/azurepowershell/blob/master/CreateVirtualMachineFromAzurePowerShell.ps1)
+  + [Enforce 1 of 3 tags and its value in all resources (only resources)](https://github.com/xdanielribeiro/AzurePolicy/blob/master/Enforce-1-of-3-tags.json)
