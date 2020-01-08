@@ -5,7 +5,7 @@
             "allOf": [
                 {
                     "field": "type",
-                    "equals": "[parameters('tagResourceProvider')]"
+                    "equals": "[parameters('tagResourceType')]"
                 },
                 {
                     "not": {
@@ -56,7 +56,7 @@
                 "description": "Value of the tag"
             }
         },
-        "tagResourceProvider": {
+        "tagResourceType": {
             "type": "String",
             "metadata": {
                 "description": "Name of the Resource Type, such as Microsoft.Storage/storageAccounts"
