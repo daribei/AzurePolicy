@@ -1,0 +1,14 @@
+{
+    "tagName": {
+        "type": "String",
+        "metadata": {
+            "description": "Name of the tag, such as costCenter"
+        }
+    },
+    "tagResourceType": {
+        "type": "String",
+        "metadata": {
+            "description": "Name of the Resource Type, such as Microsoft.Storage/storageAccounts"
+        }
+    }
+}

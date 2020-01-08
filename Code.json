@@ -1,0 +1,17 @@
+{
+    "if": {
+        "allOf": [
+            {
+                "field": "type",
+                "equals": "[parameters('tagResourceType')]"
+            },
+            {
+                "field": "[concat('tags[', parameters('tagName'), ']')]",
+                "exists": "false"
+            }
+        ]
+    },
+    "then": {
+        "effect": "deny"
+    }
+}
