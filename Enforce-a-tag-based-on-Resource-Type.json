@@ -21,7 +21,7 @@
         "tagName": {
             "type": "String",
             "metadata": {
-                "description": "Name of the tag, such as costCenter"
+                "description": "Name of the Tag, such as costCenter"
             }
         },
         "tagResourceType": {
