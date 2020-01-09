@@ -5,7 +5,7 @@
             "allOf": [
                 {
                     "field": "type",
-                    "equals": "[parameters('tagResourceType')]"
+                    "in": "[parameters('tagResourceType')]"
                 },
                 {
                     "field": "[concat('tags[', parameters('tagName'), ']')]",
@@ -27,7 +27,7 @@
         "tagResourceType": {
             "type": "Array",
             "metadata": {
-                "description": "Name of the Resource Type, such as Microsoft.Storage/storageAccounts"
+                "description": "Name of the Resource Types, such as: Microsoft.Storage/storageAccounts;Microsoft.Compute/disks"
             }
         }
     }
